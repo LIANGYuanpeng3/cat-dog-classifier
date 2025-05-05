@@ -1,0 +1,20 @@
+# 忽略图片和数据文件夹
+data/
+PetImages/
+train/
+*.jpg
+*.png
+*.zip
+
+# 忽略模型权重（可选）
+*.pth
+
+# 忽略 Python 缓存文件
+__pycache__/
+
+# 忽略虚拟环境
+venv/
+.venv/
+
+# 忽略 VSCode 配置（可选）
+.vscode/
